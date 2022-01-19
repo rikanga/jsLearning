@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(87, 87, 105);
+}
+
+.time{
+    background-color: rgb(215, 110, 236);
+    color:white;
+    width: 40%;
+    height: auto;
+    text-align: center;
+    font-size: 3em;
+    margin: auto;
+    padding-top:15%;
+    padding-bottom: 15%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border: rgb(215, 110, 236) 0px solid;
+    border-radius: 250px;
+    margin-top: 10%;
+    box-shadow: rgba(253, 187, 187, 0.5) 5px 5px 5px 5px;
+    overflow: auto;
+    text-overflow: clip;
+}

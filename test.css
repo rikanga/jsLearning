@@ -1,0 +1,27 @@
+ul{
+    list-style-type: none;
+    text-align: center;
+}
+li{
+    display: inline;
+    font-size: 2em;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+
+}
+li:active{
+    border-bottom: 3px solid black;
+}
+li:hover{
+    border-bottom: 3px solid rgb(0, 0, 0);
+    text-transform: uppercase;
+}
+
+li:visited{
+    border-bottom: 3px solid black;
+}
+/* input:active{
+    border: black 1px solid;
+    box-shadow: blue 2px;
+} */

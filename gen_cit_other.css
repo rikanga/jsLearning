@@ -1,0 +1,57 @@
+body{
+    background-color: #ACB3C3;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    border: 0px solid white;
+    border-radius: 15px;
+}
+
+.barre{
+    width: 80px;
+    margin: auto;
+    text-align: center;
+}
+
+#citation, #auteur{
+    color: black;
+    text-align: center;
+}
+
+#auteur{
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+#citation{
+    font-size: 2em;
+    margin-top: 20%;
+    overflow: auto;
+    height: 150px;
+    padding: 30px;
+}
+
+#important{
+    
+    width: 80%;
+    padding-bottom: 25px;
+    background-color: white;
+    margin: auto;
+    border: 0px solid white;
+    border-radius: 50% 20% / 10% 40%;
+}
+
+#nouveau{
+    background-color: orange;
+    text-align: center;
+    padding: 15px;
+    margin-top: 15px;
+}
+
+#nouveau:before{
+    content: ">>";
+    font-size: 1.5em;
+}
