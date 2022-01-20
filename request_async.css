@@ -1,0 +1,37 @@
+body{
+    margin: 0%;
+}
+
+.menu{
+    background-color: rgba(232, 241, 229, 0.4);
+    padding: .5%;
+}
+
+ul{
+    padding: 0%;
+    text-align: center;
+}
+li{
+    list-style-type: none;
+    display: inline;
+    margin: 15px;
+    cursor: pointer;
+    padding: 10px;
+    
+}
+li:hover{
+    background-color: rgba(215, 188, 240,.1);
+    border: rgba(215, 188, 240,.3) 0px solid;
+    border-radius: 10px 10px 10px 10px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+#login{
+    text-align: right;
+    right: 0%;
+    position: absolute;
+    top: 0%;
+}
