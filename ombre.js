@@ -1,25 +1,30 @@
 let button = document.querySelector('#mode');
 let span = document.querySelector('span');
 
-function modeSombre() {
-    
-}
-
-if(localStorage.getItem('theme')){
-    if(localStorage.getItem("theme") == 'sombre'){
+if(localStorage.getItem("theme")){
+    if(localStorage.getItem('theme') == 'sombre'){
         modeSombre();
     }
-    else{
-        // On reste en mode blanc
-    }
 }
-else{
-
-}
-
 
 button.addEventListener('click', ()=>{
-    document.body.style.background = 'black'
-    span.textContent = "Thème clair"
+    if(document.body.classList.contains('dark')){
+        // On passe en mode clair
+        document.body.className = '';
+        span.textContent = 'Thème sombre';
+        localStorage.setItem('theme', 'clair');
+    }
+    else{
+        // On passe en mode sombre
+        modeSombre();
+        console.log("sombre")
+
+    }
 })
-console.log(document.querySelector('.container').classList);
+
+function modeSombre() {
+    document.body.className = 'dark';
+    span.textContent = 'Thème clair';
+    localStorage.setItem('theme', 'sombre')
+}
+// console.log(document.querySelector('.container').classList);
